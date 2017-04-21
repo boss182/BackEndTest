@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+    <title>Developer SAC</title>
+    <!-- Bootstrap core CSS -->
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="../assets/css/narrow-jumbotron.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills float-right">
+            <li class="nav-item">
+              <a class="nav-link" href="../">Employees <span class="sr-only">(current)</span></a>
+            </li>          
+          </ul>
+        </nav>
+        <h3 class="text-muted">Developer SAC</h3>
+      </div>
+
+      <div class="jumbotron">
+        <h3>Employee Detail</h3>
+
+		<div class="row">
+			<div style="text-align:right;font-weight:bold" class="col-4">Name:</div>
+			<div style="text-align:left" class="col-8">{{ employee.name }}</div>
+		</div>
+		<div class="row">
+			<div style="text-align:right;font-weight:bold" class="col-4">Email:</div>
+			<div style="text-align:left" class="col-8">{{ employee.email }}</div>
+		</div>
+		<div class="row">
+			<div style="text-align:right;font-weight:bold" class="col-4">Phone:</div>
+			<div style="text-align:left" class="col-8">{{ employee.phone }}</div>
+		</div>
+		<div class="row">
+			<div style="text-align:right;font-weight:bold" class="col-4">Address:</div>
+			<div style="text-align:left" class="col-8">{{ employee.address }}</div>
+		</div>
+		<div class="row">
+			<div style="text-align:right;font-weight:bold" class="col-4">Position:</div>
+			<div style="text-align:left" class="col-8">{{ employee.position }}</div>
+		</div>
+		<div class="row">
+			<div style="text-align:right;font-weight:bold" class="col-4">Salary:</div>
+			<div style="text-align:left" class="col-8">{{ employee.salary }}</div>
+		</div>
+		<div class="row">
+			<div style="text-align:right;font-weight:bold" class="col-4">Skills:</div>
+			<div style="text-align:left" class="col-8">
+				<ul>
+					{% for skill in employee.skills %}
+					<li>{{ skill.skill }}</li>
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+   
+      </div>
+
+     
+      <footer class="footer">
+        <p>&copy; Gianfranco Oliva 2017</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

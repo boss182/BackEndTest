@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+    <title>Developer SAC</title>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="assets/css/narrow-jumbotron.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills float-right">
+            <li class="nav-item">
+              <a class="nav-link" href="http://besend.net/BackEndTest/EmployeesApplication/public/">Employees <span class="sr-only">(current)</span></a>
+            </li>          
+          </ul>
+        </nav>
+        <h3 class="text-muted">Developer SAC</h3>
+      </div>
+
+      <div class="jumbotron">
+        <h3>Search Employee</h3>
+
+		<form action="search" method="GET">
+			<div class="form-group">
+				<label for="email">Find by email:</label>
+				<input type="email" class="form-control" name="email" id="email" value="{{ email }}" />
+			</div>
+			<button type="submit" class="btn btn-default">Search</button>
+		</form>
+
+	</div>
+
+      <div class="row marketing">
+
+      	<table class="table">
+			<thead class="thead-inverse">
+				<th>Name</th>
+				<th>Email</th>
+				<th>Position</th>
+				<th>Salary</th>
+			</thead>
+			<tbody>
+				{% for employee in employees %}
+					<tr>
+				        <td><a href="employee/{{ employee.id }}">{{ employee.name }}</a></td>
+				        <td>{{ employee.email }}</td>
+				        <td>{{ employee.position }}</td>
+				        <td>{{ employee.salary }}</td>			      
+					</tr>
+			    {% endfor %}
+			</tbody>
+		</table>
+      </div>
+
+      <footer class="footer">
+        <p>&copy; Gianfranco Oliva 2017</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

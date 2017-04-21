@@ -1,0 +1,48 @@
+[21-Apr-2017 02:26:04 America/Lima] PHP Notice:  Undefined variable: result in /home/besendne/public_html/BackEndTest/EmployeesApplication/controllers/employee.php on line 21
+[21-Apr-2017 02:26:04 America/Lima] PHP Notice:  Undefined variable: result in /home/besendne/public_html/BackEndTest/EmployeesApplication/controllers/employee.php on line 21
+[21-Apr-2017 02:26:04 America/Lima] PHP Notice:  Undefined variable: result in /home/besendne/public_html/BackEndTest/EmployeesApplication/controllers/employee.php on line 21
+[21-Apr-2017 02:26:04 America/Lima] PHP Notice:  Undefined variable: result in /home/besendne/public_html/BackEndTest/EmployeesApplication/controllers/employee.php on line 21
+[21-Apr-2017 02:26:04 America/Lima] PHP Notice:  Undefined variable: result in /home/besendne/public_html/BackEndTest/EmployeesApplication/controllers/employee.php on line 21
+[21-Apr-2017 02:26:04 America/Lima] PHP Notice:  Undefined variable: result in /home/besendne/public_html/BackEndTest/EmployeesApplication/controllers/employee.php on line 21
+[21-Apr-2017 02:26:04 America/Lima] PHP Notice:  Undefined variable: result in /home/besendne/public_html/BackEndTest/EmployeesApplication/controllers/employee.php on line 21
+[21-Apr-2017 02:26:04 America/Lima] PHP Notice:  Undefined variable: result in /home/besendne/public_html/BackEndTest/EmployeesApplication/controllers/employee.php on line 21
+[21-Apr-2017 02:26:04 America/Lima] PHP Notice:  Undefined variable: result in /home/besendne/public_html/BackEndTest/EmployeesApplication/controllers/employee.php on line 21
+[21-Apr-2017 02:26:04 America/Lima] PHP Notice:  Undefined variable: result in /home/besendne/public_html/BackEndTest/EmployeesApplication/controllers/employee.php on line 21
+[21-Apr-2017 02:26:04 America/Lima] PHP Notice:  Undefined variable: result in /home/besendne/public_html/BackEndTest/EmployeesApplication/controllers/employee.php on line 21
+[21-Apr-2017 02:26:04 America/Lima] PHP Notice:  Undefined variable: result in /home/besendne/public_html/BackEndTest/EmployeesApplication/controllers/employee.php on line 21
+[21-Apr-2017 02:26:04 America/Lima] PHP Notice:  Undefined variable: result in /home/besendne/public_html/BackEndTest/EmployeesApplication/controllers/employee.php on line 21
+[21-Apr-2017 07:27:35 UTC] PHP Fatal error:  Class 'Employee' not found in /home/besendne/public_html/BackEndTest/EmployeesApplication/public/index.php on line 36
+[21-Apr-2017 07:36:54 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/besendne/public_html/BackEndTest/EmployeesApplication/controllers/employee.php on line 25
+[21-Apr-2017 07:36:56 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/besendne/public_html/BackEndTest/EmployeesApplication/controllers/employee.php on line 25
+[21-Apr-2017 07:50:33 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/besendne/public_html/BackEndTest/EmployeesApplication/controllers/employee.php on line 62
+[21-Apr-2017 02:51:04 America/Lima] PHP Fatal error:  Call to undefined method Employee::getBySalary() in /home/besendne/public_html/BackEndTest/EmployeesApplication/public/index.php on line 66
+[21-Apr-2017 03:04:10 America/Lima] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 1: parser error : expected '&gt;' in /home/besendne/public_html/BackEndTest/EmployeesApplication/public/index.php on line 70
+[21-Apr-2017 03:04:10 America/Lima] PHP Warning:  SimpleXMLElement::__construct(): &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt;&lt;Employees&gt;&lt;/Employees in /home/besendne/public_html/BackEndTest/EmployeesApplication/public/index.php on line 70
+[21-Apr-2017 03:04:10 America/Lima] PHP Warning:  SimpleXMLElement::__construct():                                                              ^ in /home/besendne/public_html/BackEndTest/EmployeesApplication/public/index.php on line 70
+[21-Apr-2017 03:05:21 America/Lima] PHP Notice:  Undefined variable: result in /home/besendne/public_html/BackEndTest/EmployeesApplication/public/index.php on line 73
+[21-Apr-2017 03:05:21 America/Lima] PHP Warning:  Invalid argument supplied for foreach() in /home/besendne/public_html/BackEndTest/EmployeesApplication/public/index.php on line 81
+[21-Apr-2017 03:06:41 America/Lima] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 1: parser error : Start tag expected, '&lt;' not found in /home/besendne/public_html/BackEndTest/EmployeesApplication/public/index.php on line 70
+[21-Apr-2017 03:06:41 America/Lima] PHP Warning:  SimpleXMLElement::__construct(): &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt; in /home/besendne/public_html/BackEndTest/EmployeesApplication/public/index.php on line 70
+[21-Apr-2017 03:06:41 America/Lima] PHP Warning:  SimpleXMLElement::__construct():                                        ^ in /home/besendne/public_html/BackEndTest/EmployeesApplication/public/index.php on line 70
+[21-Apr-2017 03:06:43 America/Lima] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 1: parser error : Start tag expected, '&lt;' not found in /home/besendne/public_html/BackEndTest/EmployeesApplication/public/index.php on line 70
+[21-Apr-2017 03:06:43 America/Lima] PHP Warning:  SimpleXMLElement::__construct(): &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt; in /home/besendne/public_html/BackEndTest/EmployeesApplication/public/index.php on line 70
+[21-Apr-2017 03:06:43 America/Lima] PHP Warning:  SimpleXMLElement::__construct():                                        ^ in /home/besendne/public_html/BackEndTest/EmployeesApplication/public/index.php on line 70
+[21-Apr-2017 03:07:06 America/Lima] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 1: parser error : Start tag expected, '&lt;' not found in /home/besendne/public_html/BackEndTest/EmployeesApplication/public/index.php on line 70
+[21-Apr-2017 03:07:06 America/Lima] PHP Warning:  SimpleXMLElement::__construct(): &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt; in /home/besendne/public_html/BackEndTest/EmployeesApplication/public/index.php on line 70
+[21-Apr-2017 03:07:06 America/Lima] PHP Warning:  SimpleXMLElement::__construct():                                        ^ in /home/besendne/public_html/BackEndTest/EmployeesApplication/public/index.php on line 70
+[21-Apr-2017 03:07:11 America/Lima] PHP Warning:  SimpleXMLElement::__construct(): Entity: line 1: parser error : Start tag expected, '&lt;' not found in /home/besendne/public_html/BackEndTest/EmployeesApplication/public/index.php on line 70
+[21-Apr-2017 03:07:11 America/Lima] PHP Warning:  SimpleXMLElement::__construct(): &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt; in /home/besendne/public_html/BackEndTest/EmployeesApplication/public/index.php on line 70
+[21-Apr-2017 03:07:11 America/Lima] PHP Warning:  SimpleXMLElement::__construct():                                        ^ in /home/besendne/public_html/BackEndTest/EmployeesApplication/public/index.php on line 70
+[21-Apr-2017 03:16:00 America/Lima] PHP Fatal error:  Using $this when not in object context in /home/besendne/public_html/BackEndTest/EmployeesApplication/model/employee.php on line 40
+[21-Apr-2017 03:17:13 America/Lima] PHP Strict Standards:  Accessing static property Employee::$dataEmployees as non static in /home/besendne/public_html/BackEndTest/EmployeesApplication/model/employee.php on line 15
+[21-Apr-2017 03:17:13 America/Lima] PHP Fatal error:  Using $this when not in object context in /home/besendne/public_html/BackEndTest/EmployeesApplication/model/employee.php on line 56
+[21-Apr-2017 03:17:23 America/Lima] PHP Strict Standards:  Accessing static property Employee::$dataEmployees as non static in /home/besendne/public_html/BackEndTest/EmployeesApplication/model/employee.php on line 15
+[21-Apr-2017 03:17:23 America/Lima] PHP Fatal error:  Using $this when not in object context in /home/besendne/public_html/BackEndTest/EmployeesApplication/model/employee.php on line 40
+[21-Apr-2017 03:17:57 America/Lima] PHP Strict Standards:  Accessing static property Employee::$dataEmployees as non static in /home/besendne/public_html/BackEndTest/EmployeesApplication/model/employee.php on line 15
+[21-Apr-2017 03:17:57 America/Lima] PHP Fatal error:  Using $this when not in object context in /home/besendne/public_html/BackEndTest/EmployeesApplication/model/employee.php on line 40
+[21-Apr-2017 03:18:25 America/Lima] PHP Strict Standards:  Accessing static property Employee::$dataEmployees as non static in /home/besendne/public_html/BackEndTest/EmployeesApplication/model/employee.php on line 15
+[21-Apr-2017 03:18:25 America/Lima] PHP Fatal error:  Using $this when not in object context in /home/besendne/public_html/BackEndTest/EmployeesApplication/model/employee.php on line 21
+[21-Apr-2017 03:19:29 America/Lima] PHP Strict Standards:  Accessing static property Employee::$dataEmployees as non static in /home/besendne/public_html/BackEndTest/EmployeesApplication/model/employee.php on line 15
+[21-Apr-2017 03:19:29 America/Lima] PHP Fatal error:  Using $this when not in object context in /home/besendne/public_html/BackEndTest/EmployeesApplication/model/employee.php on line 21
+[21-Apr-2017 03:19:58 America/Lima] PHP Strict Standards:  Accessing static property Employee::$dataEmployees as non static in /home/besendne/public_html/BackEndTest/EmployeesApplication/model/employee.php on line 15
+[21-Apr-2017 03:19:58 America/Lima] PHP Fatal error:  Using $this when not in object context in /home/besendne/public_html/BackEndTest/EmployeesApplication/model/employee.php on line 21
