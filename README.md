@@ -18,5 +18,7 @@ PARTE 02:
     Servicio:
     /EmployeesApplication/public/service/findBySalary/min/max
     (Por ejm: ..public/service/findBySalary/1000/1500)
+    
+    Aplicación in web: http://besend.net/BackEndTest/EmployeesApplication/public/
 
 
